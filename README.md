@@ -2,7 +2,7 @@
 🎓 MBA – Business Analytics  
 🐍 Python | ML | Analytics Engineering  
 📊 Building ML-powered analytics dashboards  
-🌍 Google Summer of Code 2026 aspirant  
+🌍 Google Summer of Code 2027 aspirant  
 
 🔭 Current focus:
 - MLflow-based experiment tracking
