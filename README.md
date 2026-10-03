@@ -99,38 +99,45 @@ mission: |
 > 💡 **Got an issue that is slow, memory-hungry or stuck?** Tag me, I like those.
 
 ---
-
+ 
 ## `> TECH_STACK`
+ 
+<div align="center">
 
 ### Languages & Frameworks
 [![Stack](https://skillicons.dev/icons?i=python,fastapi,ts,nextjs,react,angular,git,linux)](https://skillicons.dev)
 ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL%20%2F%20PL--SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Data, ML & Analytics
-[![Data](https://skillicons.dev/icons?i=pandas,numpy)](https://skillicons.dev)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-
+ 
+<h3 align="center">Data, ML &amp; Analytics</h3>
+ 
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
+</p>
+ 
 ### Cloud & Databases
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-
+ 
 ### RAG & AI
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-
+ 
 ### Geospatial, Real-Time & Drone Systems
 ![Geospatial](https://img.shields.io/badge/GEOSPATIAL-DATA-0284C7?style=for-the-badge&logo=openstreetmap&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-111827?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![MAVLink](https://img.shields.io/badge/MAVLink-00c8ff?style=for-the-badge&logo=drone&logoColor=black)
 ![Skybrush](https://img.shields.io/badge/Skybrush-FF006E?style=for-the-badge&logo=drone&logoColor=white)
-
+ 
+</div>
 ---
 
 ## `> ENGINEERING_DOMAINS`
