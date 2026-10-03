@@ -1,0 +1,37 @@
+name: Update contribution matrix
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # every 6 hours
+  workflow_dispatch:           # lets you run it manually from the Actions tab
+  push:
+    paths:
+      - scripts/contribution_matrix.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVG
+        env:
+          GH_USER: Anupam2400
+          # Optional: add a classic PAT as repo secret GH_STATS_TOKEN (scope: read:user)
+          # to count private contributions. Falls back to the built-in token.
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/contribution_matrix.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-matrix.svg
+          git diff --staged --quiet || (git commit -m "chore: update contribution matrix" && git push)
